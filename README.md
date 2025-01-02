@@ -2,7 +2,6 @@
 
 ## Llama3 3B (Coding Chatbot)
 
-## Overview
 This project creates a **coding chatbot** using a pre-trained language model (`Hermes-3-Llama`). The chatbot is fine-tuned on the OpenAssistant dataset to improve its ability to answer coding-related queries and generate natural, context-aware responses.
 
 ## Features
