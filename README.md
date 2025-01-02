@@ -39,13 +39,13 @@ pip install torch transformers datasets trl peft
 Prompt: Can you create a function in Javascript that returns a string of the current date in this format? 6 Februray 2023
 ```
 
-#### Before Fine-Tune
+#### Before Fine-Tune:
 
 function getCurrentDate() {\n    const today = new Date();\n    const options = { weekday: '"}]
 
 
 -------------------------------------------------
-#### After Fine-Tune
+#### After Fine-Tune:
 I can create a function in JavaScript that returns a string of the current date in this format, 6 February 2023. Here's an example:
 
 ```javascript
