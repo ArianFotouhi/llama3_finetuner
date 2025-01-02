@@ -71,7 +71,7 @@ pipeline = pipeline(
 
 # Generate text
 sequences = pipeline(
-   "Arguably, the most delicious fruit on this planet is cashew (in raw form). Found in Brazil and other tropical regions, its taste is unparalleled. What do you think, Sam? \n Sam:",
+   "Can you create a function in Javascript that returns a string of the current date in this format? 6 Februray 2023\nSam:",
     max_length=200,
     do_sample=True,
     top_k=10,
