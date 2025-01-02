@@ -42,7 +42,7 @@ Prompt: Can you create a function in Javascript that returns a string of the cur
 #### Before Fine-Tune
 
 function getCurrentDate() {\n    const today = new Date();\n    const options = { weekday: '"}]
-
+-------------------------------------------------
 #### After Fine-Tune
 I can create a function in JavaScript that returns a string of the current date in this format, 6 February 2023. Here's an example:
 
@@ -63,3 +63,4 @@ You can call the function like this:
 ```javascript
 console.log(getCurrentDate());
 ```
+-------------------------------------------------
