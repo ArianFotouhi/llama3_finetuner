@@ -151,7 +151,7 @@ Untrained Model:
 ```bash
 [INST] Here is a database schema: flight : flno [ INT ] primary_key origin [ TEXT ] destination [ TEXT ] distance [ INT ] departure_date [ TEXT ] arrival_date [ TEXT ] price [ INT ] aid [ INT ] flight.aid = aircraft.aid aircraft : aid [ INT ] primary_key name [ TEXT ] distance [ INT ] employee : eid [ INT ] primary_key name [ TEXT ] salary [ INT ] certificate : eid [ INT ] primary_key certificate.eid = employee.eid aid [ INT ] certificate.aid = aircraft.aid Please write me a SQL statement that answers the following question: What is the name of the aircraft with the highest average flight price? [/INST]
 ```
-Only repeats the input prompt
+The untrained model only repeats the input prompt
 
 
 Fine-Tuned Model:
